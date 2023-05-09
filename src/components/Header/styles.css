@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    box-shadow: 0px 10px 40px rgba(255, 255, 255, 0.178);
+}
+
+.header_form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.header_logo {
+    width: 200px;
+    margin: 35px auto;
+}
+
+.header_input {
+    border: none;
+    text-align: center;
+    height: 40px;
+    max-width: 350px;
+    font-size: 22px;
+    border-radius: 10px;
+    transition: 0.2s;
+    margin: 0 auto;
+}
+
+.header_input:focus {
+    outline: 2px solid #0eb6df;
+    box-shadow: 0px 0px 35px rgb(14, 182, 223);
+}
+
+.header_button {
+    width: 150px;
+    height: 30px;
+    margin: 15px auto;
+    border-radius: 10px;
+    border: none;
+    transition: 0.2s;
+}
+
+.header_button:hover {
+    outline: 2px solid rgb(14, 182, 223);
+    box-shadow: 0px 0px 35px rgb(14, 182, 223);
+}
